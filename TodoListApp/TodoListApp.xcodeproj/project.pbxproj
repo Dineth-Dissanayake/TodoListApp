@@ -16,6 +16,8 @@
 		39E7DAA629C878B600075594 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E7DAA529C878B600075594 /* FloatingButton.swift */; };
 		39E7DAA929C8799900075594 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E7DAA829C8799900075594 /* TaskEditView.swift */; };
 		39E7DAAB29C89AC600075594 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E7DAAA29C89AC600075594 /* DateHolder.swift */; };
+		39E7DAAD29C8A29300075594 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E7DAAC29C8A29300075594 /* TaskCell.swift */; };
+		39E7DAAF29C8A4EB00075594 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E7DAAE29C8A4EB00075594 /* CheckBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		39E7DAA529C878B600075594 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		39E7DAA829C8799900075594 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
 		39E7DAAA29C89AC600075594 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		39E7DAAC29C8A29300075594 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		39E7DAAE29C8A4EB00075594 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 		39E7DA8529C8609800075594 = {
 			isa = PBXGroup;
 			children = (
+				39E7DAAE29C8A4EB00075594 /* CheckBoxView.swift */,
 				39E7DAA729C8797400075594 /* Views */,
 				39E7DA9029C8609800075594 /* TodoListApp */,
 				39E7DA8F29C8609800075594 /* Products */,
@@ -88,6 +93,7 @@
 				39E7DA9829C8609800075594 /* TaskListView.swift */,
 				39E7DAA529C878B600075594 /* FloatingButton.swift */,
 				39E7DAA829C8799900075594 /* TaskEditView.swift */,
+				39E7DAAC29C8A29300075594 /* TaskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 				39E7DA9229C8609800075594 /* TodoListAppApp.swift in Sources */,
 				39E7DA9729C8609800075594 /* TodoListApp.xcdatamodeld in Sources */,
 				39E7DAA629C878B600075594 /* FloatingButton.swift in Sources */,
+				39E7DAAF29C8A4EB00075594 /* CheckBoxView.swift in Sources */,
+				39E7DAAD29C8A29300075594 /* TaskCell.swift in Sources */,
 				39E7DAA929C8799900075594 /* TaskEditView.swift in Sources */,
 				39E7DA9929C8609800075594 /* TaskListView.swift in Sources */,
 				39E7DA9429C8609800075594 /* Persistence.swift in Sources */,
