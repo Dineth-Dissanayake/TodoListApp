@@ -9,6 +9,9 @@ import SwiftUI
 
 struct TaskEditView: View {
     
+    @Environment(\.managedObjectContext) private var viewContext
+    @EnvironmentObject var dateHolder: DateHolder
+    
     @State var selectedTaskItem: TaskItem?
     @State var name: String
     @State var desc: String
@@ -56,7 +59,16 @@ struct TaskEditView: View {
     }
     
     func saveAction() {
-        
+        withAnimation {
+            if selectedTaskItem == nil {
+                selectedTaskItem = TaskItem(context: viewContext)
+            }
+            
+            selectedTaskItem?.created = Date()
+            selectedTaskItem?.name = name
+            selectedTaskItem?.dueDate = dueDate
+            selectedTaskItem?.scheduleTime = scheduleTime
+        }
     }
 }
 

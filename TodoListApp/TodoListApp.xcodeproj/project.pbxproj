@@ -15,6 +15,7 @@
 		39E7DA9F29C8609900075594 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E7DA9E29C8609900075594 /* Preview Assets.xcassets */; };
 		39E7DAA629C878B600075594 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E7DAA529C878B600075594 /* FloatingButton.swift */; };
 		39E7DAA929C8799900075594 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E7DAA829C8799900075594 /* TaskEditView.swift */; };
+		39E7DAAB29C89AC600075594 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E7DAAA29C89AC600075594 /* DateHolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		39E7DA9E29C8609900075594 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39E7DAA529C878B600075594 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		39E7DAA829C8799900075594 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		39E7DAAA29C89AC600075594 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				39E7DA9C29C8609900075594 /* TodoListApp.entitlements */,
 				39E7DA9529C8609800075594 /* TodoListApp.xcdatamodeld */,
 				39E7DA9D29C8609900075594 /* Preview Content */,
+				39E7DAAA29C89AC600075594 /* DateHolder.swift */,
 			);
 			path = TodoListApp;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E7DAAB29C89AC600075594 /* DateHolder.swift in Sources */,
 				39E7DA9229C8609800075594 /* TodoListAppApp.swift in Sources */,
 				39E7DA9729C8609800075594 /* TodoListApp.xcdatamodeld in Sources */,
 				39E7DAA629C878B600075594 /* FloatingButton.swift in Sources */,

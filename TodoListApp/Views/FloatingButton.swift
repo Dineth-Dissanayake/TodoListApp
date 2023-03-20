@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct FloatingButton: View {
+    
+    @EnvironmentObject var dateHolder: DateHolder
+    
     var body: some View {
         Spacer()
         HStack {
-            NavigationLink(destination: TaskEditView()) {
-                Text("+ New Task").font(.headline)
+            NavigationLink(destination: TaskEditView(passedTaskItem: nil, initialDate: Date()) .environmentObject(dateHolder)) {
+                    Text("+ New Task")
+                        .font(.headline)
             }
             .padding(15)
             .foregroundColor(.white)
